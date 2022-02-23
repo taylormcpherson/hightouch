@@ -1,0 +1,23 @@
+$tablet-width: 801px;
+$desktop-width: 1024px;
+
+.Button {
+    // default as secondary styles
+    border: 1px solid #D4D9DF;
+    border-radius: 6px;
+    padding: 16px 20px;
+    font-weight: 500;
+    width: 100%;
+
+    @media (min-width: $tablet-width) {
+        padding: 10px 12px;
+        width: auto;
+    }
+
+    &[data-hierarchy=Primary] {
+        background: #271F4D;
+        border-color: #271F4D;
+        color: #FFF;
+        font-weight: 600;
+    }
+}

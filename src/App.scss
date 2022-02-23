@@ -1,0 +1,66 @@
+// vars
+$tablet-width: 801px;
+$desktop-width: 1024px;
+
+$primary-font-color: rgba(15, 24, 37, 0.9);
+
+
+// global styles
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: $primary-font-color;
+
+  &:focus {
+    outline: 2px solid rgba(73, 40, 237, .9);
+    outline-offset: 2px;
+  }
+}
+
+
+a {
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    cursor: pointer;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+}
+
+
+button {
+  border: none;
+  background: none;
+
+  &:hover,
+  &:focus {
+    cursor: pointer;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+}
+
+
+
+// App styles
+.App__main {
+  display: flex;
+  min-height: calc(100vh - 58px); // full view width - eyebrow nav
+}
+
+.App__nav {
+  flex: 0 0 20%;
+  border-right: 1px solid #D4D9DF;
+
+
+  @media (max-width: $tablet-width) {
+    display: none;
+  }   
+}

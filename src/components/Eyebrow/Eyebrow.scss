@@ -1,0 +1,44 @@
+$tablet-width: 801px;
+$desktop-width: 1024px;
+
+.Header {
+    position: relative;
+}
+
+.Header__eyebrow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 24px 14px 32px;
+    border-bottom: 1px solid #D4D9DF;
+}
+
+.Header__mobile-btn {
+    @media (min-width: $tablet-width) {
+        display: none;
+    }
+}
+
+.Header__eyebrow-btns {
+    display: flex;
+    gap: 12px;
+
+    @media (max-width: $tablet-width) {
+        display: none;
+    }
+}
+
+.Header__nav-wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+
+    &:not(.is-active) {
+        display: none;
+    }
+    
+    @media (min-width: $tablet-width) {
+        display: none;
+    }   
+}
+
