@@ -25,6 +25,7 @@ a {
   &:hover,
   &:focus {
     cursor: pointer;
+    border-radius: 6px;
   }
 
   &:disabled {
@@ -40,6 +41,7 @@ button {
   &:hover,
   &:focus {
     cursor: pointer;
+    border-radius: 6px;
   }
 
   &:disabled {
