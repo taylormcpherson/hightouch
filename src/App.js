@@ -1,13 +1,13 @@
 
 import './App.scss';
-import Eyebrow from './components/Eyebrow/Eyebrow';
+import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
 
 
 function App() {
   return (
     <div className="App">
-      <Eyebrow/>
+      <Header/>
       <div className="App__main">
 
         <div className="App__nav">

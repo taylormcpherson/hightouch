@@ -2,10 +2,10 @@ import { Component } from "react";
 import Button from "../Button/Button";
 import Logo from "../Logo/Logo";
 import Navbar from "../Navbar/Navbar";
-import './Eyebrow.scss';
+import './Header.scss';
 
 
-class Eyebrow extends Component {
+class Header extends Component {
 
     state = {
         clicked: false,
@@ -54,4 +54,4 @@ class Eyebrow extends Component {
     }
 }
 
-export default Eyebrow;
+export default Header;
