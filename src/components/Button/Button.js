@@ -4,6 +4,7 @@ import './Button.scss';
 
 class Button extends Component {
 
+    /* Button component supports primary and secondary button types */
     state = {
         type: '',
         hierarchy: '',

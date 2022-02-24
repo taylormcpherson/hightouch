@@ -6,6 +6,15 @@ import ArticleCard from "./ArticleCard/ArticleCard";
 
 class Articles extends Component {
 
+    /**
+     * Container component for all article cards and the section header 
+     * 
+     * Article card data from ArticleData.js
+     * 
+     * @src: data loading help from 
+     *       https://www.pluralsight.com/guides/load-and-render-json-data-into-react-components
+     */
+
     state = {
         title: '',
     };

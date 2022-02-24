@@ -1,4 +1,4 @@
-// Store data for Navbar MenuItems
+// Store data for Article Cards
 export const ArticleData = [
     {
         imgUrl: 'https://hightouch.io/static/7374521fcd5df77a293a422bb14bc342/Frame_22_459a12290a.png',

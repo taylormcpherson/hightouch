@@ -15,6 +15,8 @@ class ArticleCard extends Component {
     render() {
         return(
             <div className="ArticleCard">
+
+                {/* Overlay link that makes the entire card clickable */}
                 <a className="ArticleCard__link-overlay"
                    href={this.props.link}
                 >
@@ -22,18 +24,25 @@ class ArticleCard extends Component {
                         Read Article
                     </span>
                 </a>
+
                 <img className="ArticleCard__img"
                      src={this.props.imgUrl} 
                      alt={this.props.imgAlt}
                      width="100%"
                 >
                 </img>
+
                 <h4 className="ArticleCard__title">
                     {this.props.title}
                 </h4>
+
                 <p className="ArticleCard__copy">
                     {this.props.copy}
                 </p>
+
+                {/* Standard link, tabIndex set to -1 because the overlay exists.
+                  * It would be redundant to have two of the same links for accessibility reasons.
+                 */}
                 <a className="ArticleCard__link"
                    href={this.props.link}
                    tabIndex="-1"

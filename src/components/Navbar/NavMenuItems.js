@@ -1,4 +1,4 @@
-// Store data for Navbar MenuItems
+// Store data for Navigation Menu
 export const NavMenuItems = [
     {
         title: 'Home',
