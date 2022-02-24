@@ -4,7 +4,7 @@ import './Button.scss';
 
 class Button extends Component {
 
-    props = {
+    state = {
         type: '',
         hierarchy: '',
         classes: '',
