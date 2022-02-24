@@ -1,0 +1,65 @@
+.ArticleCard {
+    position: relative;
+    border: 1px solid #E2E7EB;
+    border-radius: 8px;
+    padding: 12px 12px 30px 12px;
+}
+
+.ArticleCard__link-overlay {
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: box-shadow .15s ease-in-out;
+    border-radius: 8px;
+    z-index: 1;
+
+    .is-hidden {
+        display: none;
+    }
+
+    &:hover,
+    &:focus {
+
+        box-shadow: 0 2px 12px rgba(15, 24, 37, 0.22);
+
+        ~ .ArticleCard__link {
+            color: rgba(15, 24, 37, 1);
+    
+            i {
+                color: rgba(15, 24, 37, 1);
+                font-size: 14px;
+                line-height: 16px;
+                transform: translateX(4px);
+            }
+        }
+    }
+}
+
+.ArticleCard__img {
+    margin-bottom: 24px;
+    max-width: 768px;
+    border-radius: 6px;
+}
+
+.ArticleCard__copy {
+    margin: 8px 0 24px 0;
+}
+
+
+.ArticleCard__link {
+    color: rgba(15, 24, 37, 0.42);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    transition: all .25s ease-in-out;
+    z-index: 2;
+
+    i {
+        color: rgba(15, 24, 37, 0.42);
+        margin-left: 4px;
+        transition: all .25s ease-in-out;
+    }
+}

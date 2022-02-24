@@ -6,6 +6,10 @@ $desktop-width: 1024px;
     flex-direction: column;
     flex: 100%;
     padding: 24px;
+    top: 66.6px; // below eyebrow
+    position: sticky;
+    background-color: #fff;
+    min-height: calc(100vh - 62px); // full view width - eyebrow nav
 
     @media (min-width: $tablet-width) {
         padding: 32px 16px 0 32px;
@@ -32,7 +36,7 @@ $desktop-width: 1024px;
 
 
     &:hover {
-        background-color: rgb(39, 31, 77, 0.04);
+        background-color: rgba(39, 31, 77, 0.04);
         color: rgba(73, 40, 237, .9);
     }
 
