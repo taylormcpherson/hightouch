@@ -1,0 +1,29 @@
+{ 
+    "navigationData": [
+        {
+            "title": "Home",
+            "url": "/",
+            "icon": ""
+        },
+        {
+            "title": "Destinations",
+            "url": "/destinations",
+            "icon": ""
+        },
+        {
+            "title": "Audiences",
+            "url": "/audiences",
+            "icon": ""
+        },
+        {
+            "title": "Workspaces",
+            "url": "/workspaces",
+            "icon": ""
+        },
+        {
+            "title": "Security",
+            "url": "/security",
+            "icon": ""
+        }
+    ]
+}
