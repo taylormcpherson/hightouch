@@ -34,14 +34,23 @@ $desktop-width: 1024px;
     text-decoration: none;
     transition: all .25s ease-in-out;
 
-
     &:hover,
     &:focus {
+        background-color: rgba(39, 31, 77, 0.04);
+        font-weight: 600;
+    }
+
+    &.is-active {
         background-color: rgba(39, 31, 77, 0.04);
         color: rgba(73, 40, 237, .9);
 
         i {
             color: rgba(73, 40, 237, .9);
+        }
+
+        &:hover,
+        &:focus {
+            font-weight: 500;
         }
     }
 }

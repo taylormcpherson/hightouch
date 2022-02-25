@@ -1,7 +1,7 @@
 # Hightouch Docs
 *Frontend Engineer Assessment*
 
-The goal of this project is to create a high-fidelity prototype of a homepage layout for Hightouch's Documentation. Design mockups were provided via [this figma file](https://www.figma.com/file/TEl4aPk6a29pRzYcE3gFK2/Frontend-Interview).
+The goal of this project is to implement a minimal design of the Hightouch’s documentation website. Design mockups were provided via [this figma file](https://www.figma.com/file/TEl4aPk6a29pRzYcE3gFK2/Frontend-Interview).
 
 
 **You can view the live prototype [here](https://taylormcpherson.github.io/hightouch/)**, hosted on GitHub Pages.

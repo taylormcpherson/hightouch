@@ -21,8 +21,10 @@ class Navbar extends Component {
                         return (
                             <li className="Navbar__item"
                                 key={key}
-                            >
-                                <a className="Navbar__item-link" href={item.url}>
+                            >   
+                                {/* Janky way of getting the home page to an active state since I'm not using routing. */}
+                                <a className={key === 0 ? `Navbar__item-link is-active` : `Navbar__item-link`}
+                                   href={item.url}>
                                     <span className="Navbar__item-icon">
                                         <i className={item.icon}></i>
                                     </span>
