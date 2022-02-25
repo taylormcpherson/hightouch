@@ -51,15 +51,11 @@ The mockup provides almost excellent accessibility in terms of color ratios. I u
 
 - My greatest challenge was figuring out the optimal way to load JSON data into my nav bar. I am very familiar working with JSON data throughout my projects, but I was less sure how to best implement this within React. I ended up using two approaches:
 
-  - Data files within the component.
+  - Data files within the component. I included data files for the nav bar as well as the "dive deeper" cards in the component folder. I imported the data to the component and mapped through it's objects to obtain the necessary data.
 
-   I included data files for the nav bar as well as the "dive deeper" cards in the component folder. I imported the data to the component and mapped through it's objects to obtain the necessary data.
+  - AJAX in the data from the public folder. I attempted an AJAX call via a data.json file in my public folder. While I am not grabbing my prototype data from this approach, I am storing it in my app and console logging the result of the navigation data. I did this mainly to show another approach for learning's sake.
 
-  - AJAX in the data from the public folder.
-  
-   I also attempted an AJAX call via a data.json file in my public folder. While I am not grabbing my prototype data from this approach, I am storing it in my app and console logging the result of the navigation data. I did this mainly to show another approach for learning's sake.
-
-   JSON Manipulation in React is another area I am eager to improve in and would love to learn the best approach to it.
+     JSON Manipulation in React is another area I am eager to improve in and would love to learn the best approach to it.
 
 - I did not implement typescript for this project due to the timeline and my lack of familiarity with it. However, my experience in java and javascript lead me to believe that I would pick it up quickly. It is a language I am excited to dive deeper into with some hands-on experience.
 
