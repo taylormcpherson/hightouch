@@ -3,7 +3,6 @@ import { NavMenuItems } from "./NavMenuItems";
 import './Navbar.scss';
 import Button from "../Button/Button";
 
-
 class Navbar extends Component {
     
     /**
@@ -24,6 +23,9 @@ class Navbar extends Component {
                                 key={key}
                             >
                                 <a className="Navbar__item-link" href={item.url}>
+                                    <span className="Navbar__item-icon">
+                                        <i className={item.icon}></i>
+                                    </span>
                                     {item.title}
                                 </a>
                             </li>

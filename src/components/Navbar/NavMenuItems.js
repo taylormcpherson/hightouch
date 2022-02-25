@@ -3,26 +3,26 @@ export const NavMenuItems = [
     {
         title: 'Home',
         url: '/',
-        icon: 'home',
+        icon: 'fas fa-home',
     },
     {
         title: 'Destinations',
         url: '/destinations',
-        icon: 'destinations',
+        icon: 'fas fa-border-all',
     },
     {
         title: 'Audiences',
         url: '/audiences',
-        icon: 'audiences',
+        icon: 'fas fa-user-group',
     },
     {
         title: 'Workspaces',
         url: '/workspaces',
-        icon: 'workspaces',
+        icon: 'fas fa-arrow-right-to-bracket',
     },
     {
         title: 'Security',
         url: '/security',
-        icon: 'security',
+        icon: 'fas fa-shield-blank',
     }
 ];

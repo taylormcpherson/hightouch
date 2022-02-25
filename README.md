@@ -45,7 +45,7 @@ The mockup provides almost excellent accessibility in terms of color ratios. I u
 
 
 ## Room for Improvement
-- I did not have export rights to the figma file, so I utilized the react-icons plugin and feather icons I adjusted in figma and exported myself to get as close as I could for now. The same goes for images, although I was able to get the image url's from Hightouch's blog online.
+- I did not have export rights to the figma file, so I utilized the react-icons plugin as well as standard font-awesome icons to get as close as I could for now. The same goes for images, although I was able to get the image url's from Hightouch's blog online.
 
 - One of the fonts, Proxima Nova, was not free so I was unable to import it. I coded the elements that used it as I would if it were imported, with a fall back of sans-serif.
 
