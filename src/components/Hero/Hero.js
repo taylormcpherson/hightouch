@@ -15,7 +15,9 @@ class Hero extends Component {
             <section className="Hero">
                 <img className="Hero__icon"
                      src={this.props.iconSrc} 
-                     alt={this.props.iconAlt}>        
+                     alt={this.props.iconAlt}
+                     width="100%"
+                >        
                 </img>
                 <h2 className="Hero__title">
                     {this.props.title}

@@ -19,9 +19,10 @@ class ArticleCard extends Component {
                 {/* Overlay link that makes the entire card clickable */}
                 <a className="ArticleCard__link-overlay"
                    href={this.props.link}
+                   aria-label="Read the article."
                 >
                     <span className="is-hidden">
-                        Read Article
+                        Read article
                     </span>
                 </a>
 
