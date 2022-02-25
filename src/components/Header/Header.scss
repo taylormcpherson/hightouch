@@ -27,7 +27,6 @@ $desktop-width: 1024px;
 .Header__mobile-icon {
     width: 32px;
     height: 32px;
-    color: rgba(15, 24, 37, 0.9);
     stroke-width: 1px;
 
     &:not([data-state=active]) {

@@ -32,7 +32,8 @@ $desktop-width: 1024px;
         background-position: right;
     }
 
-    &:hover {
+    &:hover,
+    &:focus {
         background-position: left;
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
 
