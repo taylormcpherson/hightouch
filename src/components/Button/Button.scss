@@ -1,4 +1,4 @@
-$tablet-width: 801px;
+$tablet-width: 800px;
 $desktop-width: 1024px;
 
 .Button {
@@ -6,9 +6,12 @@ $desktop-width: 1024px;
     border: 1px solid #D4D9DF;
     border-radius: 6px;
     padding: 16px 20px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
     font-weight: 500;
+    line-height: 16.24px;
+    text-decoration: none;
     width: 100%;
-
     background: linear-gradient(to left, transparent 50%, rgba(39, 31, 77, 0.08) 50%);
     background-size: 202%;
     background-position: right;

@@ -19,9 +19,9 @@ class Hero extends Component {
                      width="100%"
                 >        
                 </img>
-                <h2 className="Hero__title">
+                <h1 className="Hero__title">
                     {this.props.title}
-                </h2>
+                </h1>
                 <p className="Hero__copy">
                     {this.props.copy}
                 </p>

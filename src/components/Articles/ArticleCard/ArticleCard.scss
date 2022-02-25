@@ -26,13 +26,13 @@
         box-shadow: 0 2px 12px rgba(15, 24, 37, 0.22);
 
         ~ .ArticleCard__link {
-            color: rgba(15, 24, 37, 1);
+            color: rgba(15, 24, 37, .9);
     
-            i {
-                color: rgba(15, 24, 37, 1);
+            .ArticleCard__link-icon {
+                fill: rgba(15, 24, 37, .9);
                 font-size: 14px;
                 line-height: 16px;
-                transform: translateX(4px);
+                transform: translateY(2px) translateX(4px);
             }
         }
     }
@@ -44,8 +44,17 @@
     border-radius: 6px;
 }
 
+.ArticleCard__title {
+    font-weight: 600;
+    font-size: 15.75px;
+    line-height: 16px;
+}
+
 .ArticleCard__copy {
     margin: 8px 0 24px 0;
+    font-size: 12.44px;
+    line-height: 20px;
+
 }
 
 
@@ -56,10 +65,12 @@
     line-height: 16px;
     transition: all .25s ease-in-out;
     z-index: 2;
+}
 
-    i {
-        color: rgba(15, 24, 37, 0.42);
-        margin-left: 4px;
-        transition: all .25s ease-in-out;
-    }
+.ArticleCard__link-icon {
+    fill: rgba(15, 24, 37, 0.42);
+    margin-left: 4px;
+    transform: translateY(2px); // to align with link text at center
+    transition: all .25s ease-in-out;
+    
 }

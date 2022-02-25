@@ -1,4 +1,4 @@
-$tablet-width: 801px;
+$tablet-width: 800px;
 $desktop-width: 1024px;
 
 .Navbar {
@@ -28,8 +28,8 @@ $desktop-width: 1024px;
     width: 100%;
     padding: 14px 16px;
     border-radius: 6px;
-    color: rgba(15, 24, 37, 0.9);
     font-size: 14px;
+    font-weight: 500;
     line-height: 16.24px;
     text-decoration: none;
     transition: background-color .25s ease-in-out;

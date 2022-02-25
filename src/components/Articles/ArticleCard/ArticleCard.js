@@ -1,5 +1,6 @@
 import { Component } from "react";
 import './ArticleCard.scss';
+import { FaArrowRight } from 'react-icons/fa';
 
 
 class ArticleCard extends Component {
@@ -50,7 +51,7 @@ class ArticleCard extends Component {
                 >
                     Read Article
                     <span>
-                        <i className="fa-solid fa-arrow-right"></i>
+                        <FaArrowRight className="ArticleCard__link-icon"/>
                     </span>
                   
                 </a>

@@ -22,9 +22,9 @@ class Articles extends Component {
     render() {
         return(
             <section className="Articles">
-                <h3 className="Articles__title">
+                <h2 className="Articles__title">
                     {this.props.title}
-                </h3>
+                </h2>
 
                 <ul className="Articles__list">
                     {ArticleData.map( (item, key) => {

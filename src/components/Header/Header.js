@@ -3,6 +3,7 @@ import Button from "../Button/Button";
 import Logo from "../Logo/Logo";
 import Navbar from "../Navbar/Navbar";
 import './Header.scss';
+import { FaBars, FaPlus } from 'react-icons/fa';
 
 
 class Header extends Component {
@@ -26,13 +27,22 @@ class Header extends Component {
 
                     <Logo/>
 
-                    {/* Hamburger btn for mobile navigation */}
+                    {/* Hamburger & Close btns for mobile navigation */}
                     <button className="Header__mobile-btn"
                             aria-label="Open Primary Navigation"
                             type="button"
                             onClick={this.handleHamburgerClick}
                     >
-                        <i className="fa-solid fa-bars"></i>
+                        {/* Hamburger is active when state is not clicked */}
+                        <FaBars className="Header__mobile-icon"
+                                data-action="open"
+                                data-state={!this.state.clicked ? `active` : ``}
+                        />
+                        {/* XMark is active when state is clicked */}
+                        <FaPlus className="Header__mobile-icon"
+                                data-action="close"
+                                data-state={this.state.clicked ? `active` : ``}
+                        />
                     </button>
 
                      {/* Signup / Login for tablet and larger screens

@@ -1,4 +1,4 @@
-$tablet-width: 801px;
+$tablet-width: 800px;
 $desktop-width: 1024px;
 
 .Header {
@@ -21,6 +21,22 @@ $desktop-width: 1024px;
 .Header__mobile-btn {
     @media (min-width: $tablet-width) {
         display: none;
+    }
+}
+
+.Header__mobile-icon {
+    width: 32px;
+    height: 32px;
+    color: rgba(15, 24, 37, 0.9);
+    stroke-width: 1px;
+
+    &:not([data-state=active]) {
+        display: none;
+    }
+
+    // make the "faPlus" an x
+    &[data-action=close] {
+        transform: rotate(45deg);
     }
 }
 

@@ -1,8 +1,14 @@
-$tablet-width: 801px;
+$tablet-width: 800px;
 $desktop-width: 1024px;
 
 .Articles {
     margin-top: 48px;
+}
+
+.Articles__title {
+    font-weight: 600;
+    font-size: 17.72px;
+    line-height: 20px;
 }
 
 .Articles__list {
