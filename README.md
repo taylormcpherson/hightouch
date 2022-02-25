@@ -1,4 +1,5 @@
-# Hightouch Docs | Frontend Engineer Assessment 
+# Hightouch Docs
+*Frontend Engineer Assessment*
 
 The goal of this project is to create a high-fidelity prototype of a homepage layout for Hightouch's Documentation. Design mockups were provided via [this figma file](https://www.figma.com/file/TEl4aPk6a29pRzYcE3gFK2/Frontend-Interview).
 
@@ -8,7 +9,7 @@ For further inspection, feel free to download the source code.
 
 
 ## Author Contact Info
-Created by *Taylor McPherson* for Hightouch. 
+Created by **Taylor McPherson** for Hightouch. 
 - email: taylormcpherson.dev@gmailcom
 - phone: (808)647-0908
 - [portfolio / resume](https://taylormcpherson.dev)
@@ -46,11 +47,12 @@ The mockup provides almost excellent accessibility in terms of color ratios. I u
  This is another area where I am eager to improve in and would love to learn the best approach to it.
 - On a similar note, I did not implement typescript for this project as I typically only work in vanilla javascript. My experience in java and javascript make me believe I would pick it up quickly, and it is a language I am excited to dive deeper into with some hands-on experience.
 - With more time, I would like to do more thorough accessibility auditing through a screen reader.
+- I would like to improve the overall performance of my app through js minification, image hosting, and other approaches that would make for a more performant app.
 
 ## Works Cited
 ### Images Used
-- [Bernie in Seurat Painting](https://pbs.twimg.com/media/EsQd6UCXYAMFxAi?format=jpg&name=900x900)
-- [Bernie Sits with Michael Scott](https://pbs.twimg.com/media/EsRS1vBXYAMp28p?format=jpg&name=900x900)
+- [3 Great Ways of Scheduling a Hightouch Sync]('https://hightouch.io/static/7374521fcd5df77a293a422bb14bc342/Frame_22_459a12290a.png')
+- [Data Integration: The Definitive Guide](https://hightouch.io/static/4092e3539fd8b90ef60696e52c2bad19/Data_Integration_The_Definitive_Guide_852b8c6bbb.png)
 
 
 ### Help Sources
