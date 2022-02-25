@@ -2,27 +2,27 @@
 export const NavMenuItems = [
     {
         title: 'Home',
-        url: '/',
+        url: '',
         icon: 'fas fa-home',
     },
     {
         title: 'Destinations',
-        url: '/destinations',
+        url: '',
         icon: 'fas fa-border-all',
     },
     {
         title: 'Audiences',
-        url: '/audiences',
+        url: '',
         icon: 'fas fa-user-group',
     },
     {
         title: 'Workspaces',
-        url: '/workspaces',
+        url: '',
         icon: 'fas fa-arrow-right-to-bracket',
     },
     {
         title: 'Security',
-        url: '/security',
+        url: '',
         icon: 'fas fa-shield-blank',
     }
 ];

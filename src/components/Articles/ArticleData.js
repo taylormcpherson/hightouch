@@ -5,7 +5,7 @@ export const ArticleData = [
         imgAlt: 'Interface for Scheduling with heading text.',
         title: '3 Great Ways of Scheduling a Hightouch Sync',
         copy: 'We\'ve got three great ways of integrating Hightouch with your existing workflows: Airflow Pperators, Cloud Integrations, dbt Cloud Integrations, and Webhook APIs.',
-        link: '/',
+        link: '',
     },
     {
         imgUrl: 'https://hightouch.io/static/4092e3539fd8b90ef60696e52c2bad19/Data_Integration_The_Definitive_Guide_852b8c6bbb.png',
