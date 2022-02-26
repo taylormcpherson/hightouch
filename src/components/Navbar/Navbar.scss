@@ -6,13 +6,14 @@ $desktop-width: 1024px;
     flex-direction: column;
     flex: 100%;
     padding: 24px;
-    top: 66.6px; // below eyebrow
+    top: 64px; // below eyebrow
     position: sticky;
     background-color: #fff;
     min-height: calc(100vh - 62px); // full view width - eyebrow nav
 
     @media (min-width: $tablet-width) {
         padding: 32px 16px 0 32px;
+        top: 66.6px;
     }
 }
 

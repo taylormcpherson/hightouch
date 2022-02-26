@@ -11,12 +11,24 @@ class Header extends Component {
     state = {
         clicked: false,
     };
-
-    // alternate clicked state when hamburger btn is clicked
+    
     handleHamburgerClick = () => {
+        // disable page scroll
+        this.disableScroll();
+
+        // alternate clicked state when hamburger btn is clicked
         this.setState({ 
             clicked: !this.state.clicked
         });
+    }
+
+    disableScroll = () => {
+        // page scroll should disable when the click state BEFORE the click is false.
+        if (!this.state.clicked) {
+            document.body.style.overflow = 'hidden';
+        } else {
+            document.body.style.overflow = 'auto';
+        }
     }
        
     render() {
