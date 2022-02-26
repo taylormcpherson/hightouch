@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/hightouch/static/css/main.29b7dc03.css",
-    "main.js": "/hightouch/static/js/main.22629163.js",
+    "main.css": "/hightouch/static/css/main.ab2ee7d3.css",
+    "main.js": "/hightouch/static/js/main.2d953abf.js",
     "index.html": "/hightouch/index.html",
-    "main.29b7dc03.css.map": "/hightouch/static/css/main.29b7dc03.css.map",
-    "main.22629163.js.map": "/hightouch/static/js/main.22629163.js.map"
+    "main.ab2ee7d3.css.map": "/hightouch/static/css/main.ab2ee7d3.css.map",
+    "main.2d953abf.js.map": "/hightouch/static/js/main.2d953abf.js.map"
   },
   "entrypoints": [
-    "static/css/main.29b7dc03.css",
-    "static/js/main.22629163.js"
+    "static/css/main.ab2ee7d3.css",
+    "static/js/main.2d953abf.js"
   ]
 }
